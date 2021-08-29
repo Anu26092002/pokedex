@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <meta name="application-name" content="Pokedex">
+    <meta name="author" content="Anurag Ghosh">
+    <meta name="description" content="Pokedex that contains pokemon from all region">
+    <meta name="keywords" content="Pokemon, Pickachu, Bulbasaur, pokedex">
+    <link rel="icon" type="image/png" 
+        href="https://image.winudf.com/v2/image/bmV0LmFudGFmdW5ueS5wb2tlbW9uZ28uZ3VpZGUuZXhwZXJ0X2ljb25fMTUwNjAyMjk4NF8wOTc/icon.png?w=170&fakeurl=1"
+    />
+    <link rel="stylesheet" href="pokemon.css" type="text/css">
+    <link rel="stylesheet" 
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="nav.css" type="text/css">
+    <title>Unova | Pokedex</title>
+</head>
+<body>
+    <header>
+        <!--Navigation Bar-->
+        <nav class="navbar" style="font-size: 20px;">
+            <div class="navbar__container">
+                <div class = "logo" align="left">
+                    <img src="pokemonIcon.svg" alt="Pokemon Logo" height="70px" width="180px" >
+                </div>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> 
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links" id="kanto-page">
+                            <div class="tooltip">
+                                Kanto Pokedex
+                                <span class="tooltiptext">See Kantonian Pokemon</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="johto.html" class="navbar__links" id="johto-page">
+                            <div class="tooltip">
+                                Johto Pokedex
+                                <span class="tooltiptext">See Jhoto Pokemons</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="hoenn.html" class="navbar__links" id="hoenn-page">
+                            <div class="tooltip">
+                                Hoenn Pokedex
+                                <span class="tooltiptext">See Hoenn Pokemons</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="sinnoh.html" class="navbar__links" id="sinnoh-page">
+                            <div class="tooltip">Sinnoh Pokedex
+                                <span class="tooltiptext">See Sinnoh Pokemon</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="unova.html" class="navbar__links" id="wishlist-page">
+                            <div class="tooltip">Unova Pokedex
+                                <span class="tooltiptext">See Unova Pokemons</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="kalos.html" class="navbar__links" id="wishlist-page">
+                            <div class="tooltip">Kalos Pokedex
+                                <span class="tooltiptext">See Kalos Pokemons</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="alola.html" class="navbar__links" id="wishlist-page">
+                            <div class="tooltip">Alola Pokedex
+                                <span class="tooltiptext">See Alolan Pokemons</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="galar.html" class="navbar__links" id="wishlist-page">
+                            <div class="tooltip">Galar Pokedex
+                                <span class="tooltiptext">See Galarian Pokemons</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1 style="padding: 25px;">
+        <img class="pokeball" src="pokeball.svg" alt="pokeball image" width="30"/>
+        Unova PokeDex
+        <img class="pokeball" src="pokeball.svg" alt="pokeball image" width="30"/>
+    </h1>
+    <div id="poke_container" class="poke-container"></div>
+    <div class="social-panel-container">
+		<div class="social-panel">
+            <p>
+                <span class="text1">Created with</span>
+                <i class="fa fa-heart" id="heart"></i> 
+                <span class="text1">
+                    by <a target="_blank" href="#">Anurag Ghosh</a>
+                </span>
+            </p>
+			<button class="close-btn"><i class="fas fa-times" id="cross"></i></button>
+			<h4>Get in touch on</h4>
+			<ul>
+				<li>
+					<a href="https://twitter.com/AnuragG36973328" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://linkedin.com/in/anurag-g-a01531198" target="_blank">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://facebook.com/anurag.ghosh.92798" target="_blank">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/just_anurag_995" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+                <li>
+					<a href="mailto:ghoshanurag495@gmail.com?subject=Unova%20Pokedex" target="_blank">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<button class="floating-btn">Get in Touch</button>
+    <script src="nav.js" type="text/JavaScript"></script>
+    <script src="pannel.js" type="text/JavaScript"></script>
+    <script src="unova.js" type="text/JavaScript"></script>
+</body>
+</html>
