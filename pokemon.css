@@ -353,11 +353,17 @@ h1 {
 	.social-panel{
 		width: 340px;
 	}
+	h1{
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 320px) {
 
 	.social-panel{
 		width: 304px;
+	}
+	h1{
+		font-size: 12px;
 	}
 }
