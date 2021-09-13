@@ -135,7 +135,7 @@ h1 {
 	font-family: 'Muli';
 	position: relative;
 	height: 169px;	
-	width: 350px;
+	width: 370px;
 	max-width: calc(100% - 10px);
 }
 
@@ -166,7 +166,7 @@ h1 {
 	color: #fff;
 	font-size: 14px;
 	line-height: 18px;
-	padding: 2px 17px 6px;
+	padding: 2px 15px 6px;
 	position: absolute;
 	top: 0;
 	left: 50%;
