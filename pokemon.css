@@ -352,9 +352,11 @@ h1 {
 
 	.social-panel{
 		width: 340px;
+		height: 190px;
 	}
 	.social-panel ul{
 		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 	h1{
 		font-size: 15px;
@@ -365,9 +367,11 @@ h1 {
 
 	.social-panel{
 		width: 304px;
+		height: 190px;
 	}
 	.social-panel ul{
 		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 	h1{
 		font-size: 12px;
