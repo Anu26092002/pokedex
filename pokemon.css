@@ -358,6 +358,12 @@ h1 {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+	.social-panel ul li{
+		padding: 5px;
+	}
+	.social-panel h4{
+		padding: 5px;
+	}
 	h1{
 		font-size: 15px;
 	}
@@ -372,6 +378,12 @@ h1 {
 	.social-panel ul{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.social-panel ul li{
+		padding: 5px;
+	}
+	.social-panel h4{
+		padding: 5px;
 	}
 	h1{
 		font-size: 12px;
