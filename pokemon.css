@@ -396,6 +396,9 @@ h1 {
 		width: 270px;
 		height: 230px;
 	}
+	.social-panel button.close-btn {
+		font-size: 10px;
+	}
 	.social-panel ul{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
