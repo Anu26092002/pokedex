@@ -1,6 +1,5 @@
-/*CSS For nav bar*/
+@charset "UTF-8";/*CSS For nav bar*/
 
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
 * {
@@ -80,12 +79,12 @@ header{
     align-items: center;
     list-style: none;
 }
-  
+
 .navbar__item {
     height: 80px;
     padding: 0;
 }
-  
+
 .navbar__links {
     color: #fff;
     display: flex;
@@ -101,7 +100,11 @@ header{
     color: #9518fc;
     transition: all 0.3s ease;
 }
-  
+
+.navbar__links:active{
+  color: red;
+}
+
 @media screen and (max-width: 1300px) {
     .navbar__container {
       display: flex;
