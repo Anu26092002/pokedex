@@ -6,4 +6,10 @@
 <p>Use the top nav bar to navigate through the pokedex of the regions.</p>
 <p>Click on the pokemon image to view the Bulbapedia page of the pokemon</p>
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
+<div align="center">
+ <a href="https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=Anu26092002/pokedex">
+  <img src="https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=Anu26092002/pokedex" alt="Contribution image"/>
+ </a>
+</div>
