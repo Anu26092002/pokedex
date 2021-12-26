@@ -1,5 +1,5 @@
 <h1 align="center">Pokedex Containing all generations till 13-09-2021</h1>
-<p align="center"><img src="https://professorlotus.com/Sprites/Venusaur_Mega.gif" alt="mega pokemon-gif" width="300" height="200"/></p>
+<p align="center"><img src="https://lh3.googleusercontent.com/yDjwoJy62bD8Io01jew7O8A-B_DlqRaRPWCLXjlSdv4nssJzAJxOGELP0PJXPc2zmcZMy-uIU888COTf017GbIdDz9Cs0btREwra=w393" alt="mega pokemon-gif"/></p>
 <br>Inspired From <a href="https://www.youtube.com/watch?v=XL68br6JyYs" target="_blank">FlorinPop</a> & <a href="https://www.youtube.com/watch?v=T-VQUKeSU1w" target="_blank">James Q Quick</a><p>
 <p> Made with love by <a href="https://www.linkedin.com/in/anurag-g-a01531198/" target="_blank">Anurag Ghosh</a></p>
 <br>Technologies used: HTML5, CSS3, Vanilla JavaScript.
