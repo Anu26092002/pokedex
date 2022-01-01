@@ -105,6 +105,10 @@ header{
   color: red;
 }
 
+.active{
+    background-color:blue;
+}
+
 @media screen and (max-width: 1300px) {
     .navbar__container {
       display: flex;
