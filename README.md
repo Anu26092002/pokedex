@@ -7,7 +7,7 @@
 <p>Use the top nav bar to navigate through the pokedex of the regions.</p>
 <p>Click on the pokemon image to view the Bulbapedia page of the pokemon</p>
 <br/>
-<a src="https://anu26092002.github.io/pokedex/">Click to view the website</a>
+<a href="https://anu26092002.github.io/pokedex/" target="_blank">Click to view the website</a>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
