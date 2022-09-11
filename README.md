@@ -1,4 +1,4 @@
-<h1 align="center">Pokedex Containing all generations till 13-09-2021</h1>
+<h1 align="center">Pokedex Containing all generations till 13-09-202</h1>
 <p align="center"><img src="https://lh3.googleusercontent.com/yDjwoJy62bD8Io01jew7O8A-B_DlqRaRPWCLXjlSdv4nssJzAJxOGELP0PJXPc2zmcZMy-uIU888COTf017GbIdDz9Cs0btREwra=w393" alt="mega pokemon-gif"/></p>
 <br>Inspired From <a href="https://www.youtube.com/watch?v=XL68br6JyYs" target="_blank">FlorinPop</a> & <a href="https://www.youtube.com/watch?v=T-VQUKeSU1w" target="_blank">James Q Quick</a><p>
 <p> Made with love by <a href="https://www.linkedin.com/in/anurag-g-a01531198/" target="_blank">Anurag Ghosh</a></p>
