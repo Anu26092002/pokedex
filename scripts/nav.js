@@ -11,43 +11,92 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
-// Show active menu when scrolling
-const highlightMenu = () => {
-  const elem = document.querySelector('.highlight');
-  const kanto = document.querySelector('#kanto-page');
-  const johto = document.querySelector('#johto-page');
-  const hoenn = document.querySelector('#hoenn-page');
-  const sinnoh = document.querySelector('#sinnoh-page');
-  const unova = document.querySelector('#unova-page');
-  const kalos = document.querySelector('#kalos-page');
-  const alola = document.querySelector('#alola-page');
-  const galar = document.querySelector('#galar-page');
-  let scrollPos = window.scrollY;
-  // console.log(scrollPos);
+const highlight = (name) => {
 
-  // adds 'highlight' class to my menu items
-  if (window.innerWidth > 960 && scrollPos < 600) {
-    homeMenu.classList.add('highlight');
-    aboutMenu.classList.remove('highlight');
-    return;
-  } else if (window.innerWidth > 960 && scrollPos < 1400) {
-    aboutMenu.classList.add('highlight');
-    homeMenu.classList.remove('highlight');
-    servicesMenu.classList.remove('highlight');
-    return;
-  } else if (window.innerWidth > 960 && scrollPos < 2345) {
-    servicesMenu.classList.add('highlight');
-    aboutMenu.classList.remove('highlight');
-    return;
+  switch(name) {
+    case "kanto":
+      document.querySelector('#kanto-page').classList.add('highlight');
+      document.querySelector('#johto-page').classList.remove('highlight');
+      document.querySelector('#hoenn-page').classList.remove('highlight');
+      document.querySelector('#sinnoh-page').classList.remove('highlight');
+      document.querySelector('#unova-page').classList.remove('highlight');
+      document.querySelector('#kalos-page').classList.remove('highlight');
+      document.querySelector('#alola-page').classList.remove('highlight');
+      document.querySelector('#galar-page').classList.remove('highlight');
+      alert("Hi00")
+      break;
+    case "johto":
+      document.querySelector('#kanto-page').classList.remove('highlight');
+      document.querySelector('#johto-page').classList.add('highlight');
+      document.querySelector('#hoenn-page').classList.remove('highlight');
+      document.querySelector('#sinnoh-page').classList.remove('highlight');
+      document.querySelector('#unova-page').classList.remove('highlight');
+      document.querySelector('#kalos-page').classList.remove('highlight');
+      document.querySelector('#alola-page').classList.remove('highlight');
+      document.querySelector('#galar-page').classList.remove('highlight');
+      break;
+    case "hoenn":
+      document.querySelector('#kanto-page').classList.remove('highlight');
+      document.querySelector('#johto-page').classList.remove('highlight');
+      document.querySelector('#hoenn-page').classList.add('highlight');
+      document.querySelector('#sinnoh-page').classList.remove('highlight');
+      document.querySelector('#unova-page').classList.remove('highlight');
+      document.querySelector('#kalos-page').classList.remove('highlight');
+      document.querySelector('#alola-page').classList.remove('highlight');
+      document.querySelector('#galar-page').classList.remove('highlight');
+      break;
+    case "sinnoh":
+      document.querySelector('#kanto-page').classList.remove('highlight');
+      document.querySelector('#johto-page').classList.remove('highlight');
+      document.querySelector('#hoenn-page').classList.remove('highlight');
+      document.querySelector('#sinnoh-page').classList.add('highlight');
+      document.querySelector('#unova-page').classList.remove('highlight');
+      document.querySelector('#kalos-page').classList.remove('highlight');
+      document.querySelector('#alola-page').classList.remove('highlight');
+      document.querySelector('#galar-page').classList.remove('highlight');
+      break;
+    case "unova":
+      document.querySelector('#kanto-page').classList.remove('highlight');
+      document.querySelector('#johto-page').classList.remove('highlight');
+      document.querySelector('#hoenn-page').classList.remove('highlight');
+      document.querySelector('#sinnoh-page').classList.remove('highlight');
+      document.querySelector('#unova-page').classList.add('highlight');
+      document.querySelector('#kalos-page').classList.remove('highlight');
+      document.querySelector('#alola-page').classList.remove('highlight');
+      document.querySelector('#galar-page').classList.remove('highlight');
+      break;
+    case "kalos":
+      document.querySelector('#kanto-page').classList.remove('highlight');
+      document.querySelector('#johto-page').classList.remove('highlight');
+      document.querySelector('#hoenn-page').classList.remove('highlight');
+      document.querySelector('#sinnoh-page').classList.remove('highlight');
+      document.querySelector('#unova-page').classList.remove('highlight');
+      document.querySelector('#kalos-page').classList.add('highlight');
+      document.querySelector('#alola-page').classList.remove('highlight');
+      document.querySelector('#galar-page').classList.remove('highlight');
+      break;     
+    case "alola":
+      document.querySelector('#kanto-page').classList.add('highlight');
+      document.querySelector('#johto-page').classList.remove('highlight');
+      document.querySelector('#hoenn-page').classList.remove('highlight');
+      document.querySelector('#sinnoh-page').classList.remove('highlight');
+      document.querySelector('#unova-page').classList.remove('highlight');
+      document.querySelector('#kalos-page').classList.remove('highlight');
+      document.querySelector('#alola-page').classList.add('highlight');
+      document.querySelector('#galar-page').classList.remove('highlight');
+      break;
+    case "galar":
+      document.querySelector('#kanto-page').classList.add('highlight');
+      document.querySelector('#johto-page').classList.remove('highlight');
+      document.querySelector('#hoenn-page').classList.remove('highlight');
+      document.querySelector('#sinnoh-page').classList.remove('highlight');
+      document.querySelector('#unova-page').classList.remove('highlight');
+      document.querySelector('#kalos-page').classList.remove('highlight');
+      document.querySelector('#alola-page').classList.remove('highlight');
+      document.querySelector('#galar-page').classList.add('highlight');
+      break;
   }
-
-  if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
-    elem.classList.remove('highlight');
-  }
-};
-
-window.addEventListener('scroll', highlightMenu);
-window.addEventListener('click', highlightMenu);
+}
 
 //  Close mobile Menu when clicking on a menu item
 const hideMobileMenu = () => {
