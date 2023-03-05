@@ -1,5 +1,5 @@
 const poke_container = document.getElementById('poke_container');
-const pokemons_number = 386;
+const pokemons_number = 1008;
 const colors = {
 	Normal: '#d1d0a4',
 	Fire: '#d66214',
@@ -43,7 +43,7 @@ const TypeIcons = {
 };
 
 const fetchPokemons = async () => {
-	for (let i = 252; i <= pokemons_number; i++) {
+	for (let i = 906; i <= pokemons_number; i++) {
 		await getPokemon(i);
 	}
 };
@@ -72,13 +72,13 @@ function createPokemonCard(pokemon) {
 	const weight = pokemon.weight/10;
 	const moves = pokemon.moves.map(move=> move.move.name[0].toUpperCase()+move.move.name.slice(1)).join(", ");
 	const ability = pokemon.abilities.map(ability=> ability.ability.name[0].toUpperCase()+ability.ability.name.slice(1)).join(", ");
-
+	
 	pokemonEl.style.backgroundColor = color;
 
 	const pokeInnerHTML = `
         <div class="img-container" align="center">
 			<a href="https://bulbapedia.bulbagarden.net/wiki/${name}_(Pok%C3%A9mon)">
-				<img src="https://assets.pokemon.com//assets/cms2/img/pokedex/detail/${id}.png" alt="${name} front image" />
+				<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png" alt="${name} front image" />
 			</a>
         </div>
         <div class="info" align="center">
