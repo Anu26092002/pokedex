@@ -89,7 +89,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 125px;
+  width: 100px;
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
@@ -133,7 +133,7 @@ header {
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1000;
-    height: 100vh;
+    height: 110vh;
     font-size: 20px;
   }
 
