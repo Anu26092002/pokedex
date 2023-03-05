@@ -1,5 +1,5 @@
-const poke_container = document.getElementById('poke_container');
-const pokemons_number = 386;
+const poke_container = document.getElementById('poke_container'); 
+const pokemons_number = 649;
 const colors = {
 	Normal: '#d1d0a4',
 	Fire: '#d66214',
@@ -22,28 +22,28 @@ const colors = {
 };
 
 const TypeIcons = {
-	Normal: 'NormalIcon.svg',
-	Fire: 'FireIcon.svg',
-	Water: 'WaterIcon.svg',
-	Electric: 'ElectricIcon.svg',
-	Grass: 'GrassIcon.svg',
-	Ice: 'IceIcon.svg',
-	Fighting: 'FightingIcon.svg',
-	Poison: 'PoisonIcon.svg',
-	Ground: 'GroundIcon.svg',
-	Flying: 'FlyingIcon.svg',
-	Psychic: 'PsychicIcon.svg',
-	Bug: 'BugIcon.svg',
-	Rock: 'RockIcon.svg',
-	Ghost: 'GhostIcon.svg',
-	Dragon: 'DragonIcon.svg',
-	Dark: 'DarkIcon.svg',
-	Steel: 'SteelIcon.svg',
-	Fairy: 'FairyIcon.svg'
+	Normal: 'images/types/NormalIcon.svg',
+	Fire: 'images/types/FireIcon.svg',
+	Water: 'images/types/WaterIcon.svg',
+	Electric: 'images/types/ElectricIcon.svg',
+	Grass: 'images/types/GrassIcon.svg',
+	Ice: 'images/types/IceIcon.svg',
+	Fighting: 'images/types/FightingIcon.svg',
+	Poison: 'images/types/PoisonIcon.svg',
+	Ground: 'images/types/GroundIcon.svg',
+	Flying: 'images/types/FlyingIcon.svg',
+	Psychic: 'images/types/PsychicIcon.svg',
+	Bug: 'images/types/BugIcon.svg',
+	Rock: 'images/types/RockIcon.svg',
+	Ghost: 'images/types/GhostIcon.svg',
+	Dragon: 'images/types/DragonIcon.svg',
+	Dark: 'images/types/DarkIcon.svg',
+	Steel: 'images/types/SteelIcon.svg',
+	Fairy: 'images/types/FairyIcon.svg'
 };
 
 const fetchPokemons = async () => {
-	for (let i = 252; i <= pokemons_number; i++) {
+	for (let i = 494; i <= pokemons_number; i++) {
 		await getPokemon(i);
 	}
 };
