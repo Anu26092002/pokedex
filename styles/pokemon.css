@@ -49,6 +49,9 @@ h1 {
 	text-align: center;
 }
 
+.type {
+	margin: 5px;
+}
 /*Animation for the pokeballs to move*/
 .pokeball{
 	animation: rotate 1.5s infinite;
