@@ -85,36 +85,44 @@ function createPokemonCard(pokemon) {
             <span class="number"><i>#${id}</i></span>
             <h3 class="name">${name}</h3>
             <small class="type">
-				<b>Type: </b>
-				<table align="center">
-					<tr>
-						<td align="left">${ptype}</td>
-						<td><img class="primary-icon" src="${icon1}" alt="${ptype} icon image" width="20"/></td>
-					</tr>
-					<tr>
-						<td align="left">${stype}</td>
-						<td><img class="secondary-icon" src="${icon2}" width="20"/></td>
-					</tr>
-				</table>
-			</small>
-			<small>
-				<span><B>Height: ${height} m</B></span>
-				<br>
-				<span><B>Weight: ${weight} kg</B></span>
-			</small>
-			<br>
-			<br>
-			<small>
-				<details>
-					<summary><B>Moves</B></summary>
-					<p>${moves}</p>
-				</details>
-				<br>
-				<details>
-					<summary><B>Abilities</B></summary>
-					<p>${ability}</p>
-				</details>
-			</small>
+	    	<b>Type: </b>
+		<table align="center">
+			<tr>
+   				<td style="padding-right: 2px; vertical-align: middle;">
+					<img class="primary-icon" src="${icon1}" alt="${ptype} icon image" width="20"/>
+				</td>
+				<td style="padding-left: 2px; vertical-align: middle;">
+					${ptype}
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-right: 2px; vertical-align: middle;">
+					<img class="secondary-icon" src="${icon2}" width="20"/>
+				</td>
+				<td style="padding-left: 2px; vertical-align: middle;">
+					${stype}
+				</td>
+			</tr>
+		</table>
+	    </small>
+     	    <small>
+	  	<span><B>Height: ${height} m</B></span>
+		<br>
+		<span><B>Weight: ${weight} kg</B></span>
+	    </small>
+	    <br>
+	    <br>
+	    <small>
+		<details>
+			<summary><B>Moves</B></summary>
+			<p>${moves}</p>
+		</details>
+		<br>
+		<details>
+			<summary><B>Abilities</B></summary>
+			<p>${ability}</p>
+		</details>
+	    </small>
         </div>
     `;
 	pokemonEl.innerHTML = pokeInnerHTML;
